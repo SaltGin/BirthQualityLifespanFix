@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -52,34 +52,30 @@ namespace BirthQualityLifespanFix
             float matureRatio = raceMatureAge / humanMatureAge;
             float lifespanRatio = raceLifespan / humanLifespan;
 
-            // Calculate scaled turning points
-            float scaled14 = 14f * matureRatio;
-            float scaled15 = 15f * matureRatio;
-            float scaled20 = 20f * matureRatio;
-            float scaled30 = 30f * lifespanRatio;
-            float scaled40 = 40f * lifespanRatio;
-            float scaled65 = 65f * lifespanRatio;
+            // 2 Reference Points that logic switches on
+            const float HumanPeakStart = 20f; // End of growth curve
+            const float HumanPeakEnd = 30f;   // Start of decay curve
+            float bioPeakStart = HumanPeakStart * matureRatio;
+            float bioPeakEnd = Math.Max(HumanPeakEnd * lifespanRatio, bioPeakStart);
 
-            if (bioAge <= scaled14)
+            // The pawn is still growing (Equivalent < 20)
+            if (bioAge <= bioPeakStart)
+            {
                 return bioAge / matureRatio;
+            }
 
-            if (bioAge <= scaled15)
-                return 14f + (bioAge - scaled14) / (scaled15 - scaled14) * 1f;
+            // The pawn is past their prime (Equivalent > 30)
+            if (bioAge >= bioPeakEnd)
+            {
+                return HumanPeakEnd + ((bioAge - bioPeakEnd) / lifespanRatio);
+            }
 
-            if (bioAge <= scaled20)
-                return 15f + (bioAge - scaled15) / (scaled20 - scaled15) * 5f;
+            // The pawn is in their prime (Equivalent between 20 and 30)
+            float range = bioPeakEnd - bioPeakStart;
+            if (range <= 0.01f) return HumanPeakStart;
 
-            if (bioAge <= scaled30)
-                return 20f + (bioAge - scaled20) / (scaled30 - scaled20) * 10f;
-
-            if (bioAge <= scaled40)
-                return 30f + (bioAge - scaled30) / (scaled40 - scaled30) * 10f;
-
-            if (bioAge <= scaled65)
-                return 40f + (bioAge - scaled40) / (scaled65 - scaled40) * 25f;
-
-            // Beyond scaled65: extrapolate
-            return 65f + (bioAge - scaled65) / lifespanRatio;
+            float progress = (bioAge - bioPeakStart) / range;
+            return HumanPeakStart + (progress * (HumanPeakEnd - HumanPeakStart));
         }
     }
 
