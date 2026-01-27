@@ -2,7 +2,7 @@
 
 This repository contains the source code for the RimWorld mod **Birth Quality Lifespan Fix**.
 
-[https://steamcommunity.com/sharedfiles/filedetails/?id=3612632140](https://steamcommunity.com/sharedfiles/filedetails/?id=3654220474)
+https://steamcommunity.com/sharedfiles/filedetails/?id=3654799710
 
 # Calculation Logic
 
