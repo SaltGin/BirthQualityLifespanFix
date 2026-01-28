@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>防止短壽命懲罰</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>啟用後，壽命短於人類（80年）的種族將至少保持完整的10年最佳生育期，而不是按比例縮短。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

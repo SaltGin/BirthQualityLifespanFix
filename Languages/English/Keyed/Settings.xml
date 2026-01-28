@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Prevent short-lifespan penalty</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>When enabled, races with lifespans shorter than humans (80 years) will maintain at least a full 10-year equivalent peak quality window instead of having it shrunk proportionally.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

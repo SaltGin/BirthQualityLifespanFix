@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zapobiegaj karze za krótką długość życia</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Po włączeniu rasy o krótszej długości życia niż ludzie (80 lat) zachowają przynajmniej pełne 10-letnie równoważne okno szczytowej jakości narodzin zamiast być proporcjonalnie zmniejszone.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

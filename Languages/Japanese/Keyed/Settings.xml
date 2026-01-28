@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>短寿命ペナルティを防止</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>有効にすると、人間より寿命が短い種族（80年未満）は、比例して縮小されるのではなく、少なくとも完全な10年相当の最高出産品質期間を維持します。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

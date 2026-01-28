@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Forhindre kort-levetid straff</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Når aktivert, vil raser med kortere levetid enn mennesker (80 år) beholde minst et fullt 10-års ekvivalent vindu for maksimal fødselskvalitet i stedet for å bli proporsjonalt redusert.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Estä lyhyen eliniän rangaistus</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Kun käytössä, rodut joiden elinikä on lyhyempi kuin ihmisten (80 vuotta) säilyttävät vähintään täyden 10 vuoden vastaavan huippusyntylaadun ikkunan sen sijaan että sitä pienennettäisiin suhteellisesti.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

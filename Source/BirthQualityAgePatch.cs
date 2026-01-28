@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -56,7 +56,19 @@ namespace BirthQualityLifespanFix
             const float HumanPeakStart = 20f; // End of growth curve
             const float HumanPeakEnd = 30f;   // Start of decay curve
             float bioPeakStart = HumanPeakStart * matureRatio;
-            float bioPeakEnd = Math.Max(HumanPeakEnd * lifespanRatio, bioPeakStart);
+
+            float bioPeakEnd = HumanPeakEnd * lifespanRatio;
+
+            if (BirthQualityLifespanFix.Settings.preventShortLifespanPenalty && lifespanRatio < 1f)
+            {
+                float guaranteedEnd = bioPeakStart + (HumanPeakEnd - HumanPeakStart); // effectively Start + 10
+
+                // Take whichever is better
+                bioPeakEnd = Math.Max(bioPeakEnd, guaranteedEnd);
+            }
+
+            // Safety lock
+            bioPeakEnd = Math.Max(bioPeakEnd, bioPeakStart);
 
             // The pawn is still growing (Equivalent < 20)
             if (bioAge <= bioPeakStart)

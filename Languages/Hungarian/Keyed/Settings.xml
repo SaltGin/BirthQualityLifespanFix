@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Rövid élettartam büntetés megakadályozása</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Ha engedélyezve van, az embereknél rövidebb élettartamú (80 év) fajok legalább a teljes 10 éves egyenértékű csúcs születési minőség ablakot megtartják, ahelyett hogy arányosan csökkenne.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

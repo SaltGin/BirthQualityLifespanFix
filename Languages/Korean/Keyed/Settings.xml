@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>짧은 수명 페널티 방지</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>활성화하면 인간보다 수명이 짧은 종족(80년 미만)은 비례적으로 축소되는 대신 최소한 완전한 10년 상당의 최고 출산 품질 기간을 유지합니다.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

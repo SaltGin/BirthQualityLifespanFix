@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Väldi lühikese eluea karistust</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Kui lubatud, säilitavad lühema elueaga rassid kui inimesed (80 aastat) vähemalt täieliku 10-aastase ekvivalentse tippsünnikvaliteedi akna, selle asemel et seda proportsionaalselt vähendada.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

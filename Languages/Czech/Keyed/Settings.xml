@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zabránit penalizaci krátké délky života</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Když je povoleno, rasy s kratší délkou života než lidé (80 let) si zachovají alespoň plné 10leté ekvivalentní okno maximální kvality porodu místo proporcionálního zmenšení.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

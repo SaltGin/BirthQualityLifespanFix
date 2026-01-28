@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Предотвратить штраф за короткую продолжительность жизни</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>При включении расы с продолжительностью жизни короче человеческой (80 лет) сохранят как минимум полное 10-летнее эквивалентное окно пиковой качества рождения вместо пропорционального уменьшения.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

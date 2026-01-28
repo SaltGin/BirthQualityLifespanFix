@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Prevenir penalización por vida corta</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Cuando está habilitado, las razas con esperanza de vida menor que los humanos (80 años) mantendrán al menos una ventana completa equivalente a 10 años de calidad máxima de nacimiento en lugar de reducirse proporcionalmente.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

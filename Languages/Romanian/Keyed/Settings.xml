@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Previne penalizarea duratei scurte de viață</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Când este activat, rasele cu durata de viață mai scurtă decât oamenii (80 de ani) vor menține cel puțin o fereastră completă echivalentă cu 10 ani pentru calitatea maximă a nașterii în loc să fie redusă proporțional.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

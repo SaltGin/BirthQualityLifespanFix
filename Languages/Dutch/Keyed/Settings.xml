@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Voorkom korte-levensduur straf</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Wanneer ingeschakeld, behouden rassen met een kortere levensduur dan mensen (80 jaar) minstens een volledig 10-jarig equivalent venster voor maximale geboortekwaliteit in plaats van proportioneel verkleind te worden.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

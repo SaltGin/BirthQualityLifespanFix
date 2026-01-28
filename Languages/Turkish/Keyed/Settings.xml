@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Kısa ömür cezasını önle</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Etkinleştirildiğinde, insanlardan daha kısa ömürlü ırklar (80 yıl) orantılı olarak küçültülmek yerine en az tam 10 yıllık eşdeğer maksimum doğum kalitesi penceresini koruyacaktır.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>

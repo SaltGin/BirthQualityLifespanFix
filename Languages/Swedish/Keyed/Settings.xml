@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenalty>Förhindra kort-livslängd straff</BirthQualityLifespanFix_PreventShortLifespanPenalty>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>När aktiverat kommer raser med kortare livslängd än människor (80 år) att behålla åtminstone ett fullt 10-årigt ekvivalent fönster för maximal födelsekvalitet istället för att proportionellt minskas.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+</LanguageData>
