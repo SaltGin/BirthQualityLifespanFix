@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Prevenir penalidade de vida curta</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Quando ativado, raças com expectativa de vida menor que humanos (80 anos) manterão pelo menos uma janela completa equivalente a 10 anos de qualidade máxima de nascimento em vez de ser proporcionalmente reduzida.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Sem idade no pico de qualidade de nascimento</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Quando ativado, personagens com o gene Sem idade (ou genes similares que param completamente o envelhecimento) que passaram da janela de qualidade ideal sempre receberão o bônus completo de qualidade de nascimento.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

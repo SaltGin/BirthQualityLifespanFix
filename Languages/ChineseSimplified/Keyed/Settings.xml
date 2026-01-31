@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>防止短寿命惩罚</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>启用后，寿命短于人类（80年）的种族将至少保持完整的10年最佳生育期，而不是按比例缩短。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>不老基因保持最佳生育质量</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>启用后，拥有不老基因（或类似完全停止衰老的基因）且已过最佳生育年龄的角色将始终获得完整的生育质量加成。</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

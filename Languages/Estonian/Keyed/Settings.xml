@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Väldi lühikese eluea karistust</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Kui lubatud, säilitavad lühema elueaga rassid kui inimesed (80 aastat) vähemalt täieliku 10-aastase ekvivalentse tippsünnikvaliteedi akna, selle asemel et seda proportsionaalselt vähendada.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Vananematusega tippkvaliteedil</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Kui lubatud, saavad Vananematusegeeniga (või sarnaste geenidega, mis peatavad vananemise täielikult) tegelased, kes on ületanud tippkvaliteedi akna, alati täieliku sünnituakvaliteedi boonuse.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

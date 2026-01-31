@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Prevent short-lifespan penalty</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>When enabled, races with lifespans shorter than humans (80 years) will maintain at least a full 10-year equivalent peak quality window instead of having it shrunk proportionally.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Ageless at peak birth quality</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>When enabled, pawns with the Ageless gene (or similar genes that completely stop aging) who have passed the peak quality window will always receive full birth quality bonus.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

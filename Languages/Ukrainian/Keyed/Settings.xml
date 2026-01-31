@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Запобігти штрафу за коротку тривалість життя</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>При увімкненні раси з тривалістю життя коротшою за людську (80 років) збережуть щонайменше повне 10-річне еквівалентне вікно пікової якості народження замість пропорційного зменшення.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Нестаріючий на піку якості народження</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>При увімкненні персонажі з геном Нестаріючий (або подібними генами, що повністю зупиняють старіння), які перевищили вікно пікової якості, завжди отримуватимуть повний бонус якості народження.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

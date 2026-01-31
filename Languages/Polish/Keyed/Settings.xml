@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zapobiegaj karze za krótką długość życia</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Po włączeniu rasy o krótszej długości życia niż ludzie (80 lat) zachowają przynajmniej pełne 10-letnie równoważne okno szczytowej jakości narodzin zamiast być proporcjonalnie zmniejszone.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Niestarzejący się przy szczytowej jakości urodzenia</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Po włączeniu, postacie z genem Niestarzejący się (lub podobnymi genami, które całkowicie zatrzymują starzenie), które przekroczyły okno szczytowej jakości, zawsze otrzymają pełny bonus jakości urodzenia.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

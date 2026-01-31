@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Rövid élettartam büntetés megakadályozása</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Ha engedélyezve van, az embereknél rövidebb élettartamú (80 év) fajok legalább a teljes 10 éves egyenértékű csúcs születési minőség ablakot megtartják, ahelyett hogy arányosan csökkenne.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Öregedésmentes csúcs születési minőségen</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Ha engedélyezve van, az Öregedésmentes génnel (vagy hasonló génekkel, amelyek teljesen megállítják az öregedést) rendelkező, a csúcsminőségi ablakot túllépett karakterek mindig teljes születési minőség bónuszt kapnak.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

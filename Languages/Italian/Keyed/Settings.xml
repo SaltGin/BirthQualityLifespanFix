@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Previeni penalità per vita breve</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Quando abilitato, le razze con aspettativa di vita inferiore agli umani (80 anni) manterranno almeno una finestra completa equivalente a 10 anni per la qualità massima della nascita invece di essere ridotta proporzionalmente.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Senza età al picco di qualità di nascita</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Quando abilitato, i personaggi con il gene Senza età (o geni simili che fermano completamente l'invecchiamento) che hanno superato la finestra di qualità ottimale riceveranno sempre il bonus completo di qualità di nascita.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

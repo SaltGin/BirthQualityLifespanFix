@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Kısa ömür cezasını önle</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Etkinleştirildiğinde, insanlardan daha kısa ömürlü ırklar (80 yıl) orantılı olarak küçültülmek yerine en az tam 10 yıllık eşdeğer maksimum doğum kalitesi penceresini koruyacaktır.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Yaşlanmaz en yüksek doğum kalitesinde</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Etkinleştirildiğinde, Yaşlanmaz genine (veya yaşlanmayı tamamen durduran benzer genlere) sahip ve en yüksek kalite penceresini geçmiş karakterler her zaman tam doğum kalitesi bonusu alacaktır.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

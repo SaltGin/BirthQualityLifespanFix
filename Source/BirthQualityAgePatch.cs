@@ -1,8 +1,9 @@
-﻿using System;
-using HarmonyLib;
+﻿using HarmonyLib;
 using RimWorld;
-using Verse;
+using System;
 using System.Linq;
+using UnityEngine;
+using Verse;
 
 namespace BirthQualityLifespanFix
 {
@@ -55,8 +56,14 @@ namespace BirthQualityLifespanFix
             // 2 Reference Points that logic switches on
             const float HumanPeakStart = 20f; // End of growth curve
             const float HumanPeakEnd = 30f;   // Start of decay curve
-            float bioPeakStart = HumanPeakStart * matureRatio;
 
+            if (BirthQualityLifespanFix.Settings.AgelessAtPeakBirthQuality
+                && pawn.genes?.BiologicalAgeTickFactor == 0f) // Ageless gene
+            {
+                return Math.Min(bioAge, HumanPeakEnd);
+            }
+
+            float bioPeakStart = HumanPeakStart * matureRatio;
             float bioPeakEnd = HumanPeakEnd * lifespanRatio;
 
             if (BirthQualityLifespanFix.Settings.preventShortLifespanPenalty && lifespanRatio < 1f)
@@ -100,7 +107,7 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = ritual?.PawnWithRole("mother");
-            if (pawn == null || pawn.def == ThingDefOf.Human)
+            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
                 return;
 
             __result = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);
@@ -120,7 +127,7 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = ritual.PawnWithRole("mother");
-            if (pawn == null || pawn.def == ThingDefOf.Human)
+            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
                 return;
 
             float equivalentAge = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);
@@ -146,7 +153,7 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = assignments?.FirstAssignedPawn("mother");
-            if (pawn == null || pawn.def == ThingDefOf.Human)
+            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
                 return;
 
             float equivalentAge = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);

@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Estä lyhyen eliniän rangaistus</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Kun käytössä, rodut joiden elinikä on lyhyempi kuin ihmisten (80 vuotta) säilyttävät vähintään täyden 10 vuoden vastaavan huippusyntylaadun ikkunan sen sijaan että sitä pienennettäisiin suhteellisesti.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Ikääntymätön huippusyntyislaadulla</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Kun käytössä, hahmot joilla on Ikääntymätön-geeni (tai vastaavat geenit jotka pysäyttävät ikääntymisen kokonaan) ja jotka ovat ohittaneet huippulaataikkunan, saavat aina täyden syntyislaatubonuksen.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Voorkom korte-levensduur straf</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Wanneer ingeschakeld, behouden rassen met een kortere levensduur dan mensen (80 jaar) minstens een volledig 10-jarig equivalent venster voor maximale geboortekwaliteit in plaats van proportioneel verkleind te worden.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Tijdloos op piek geboortekwaliteit</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Wanneer ingeschakeld, zullen pionnen met het Tijdloos-gen (of vergelijkbare genen die veroudering volledig stoppen) die voorbij het piek kwaliteitsvenster zijn, altijd de volledige geboortekwaliteitsbonus ontvangen.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

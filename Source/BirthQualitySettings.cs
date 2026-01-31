@@ -10,10 +10,12 @@ namespace BirthQualityLifespanFix
         /// scaled to at least human-equivalent 30, preventing the shrinking penalty.
         /// </summary>
         public bool preventShortLifespanPenalty = false;
+        public bool AgelessAtPeakBirthQuality = false;
 
         public override void ExposeData()
         {
             Scribe_Values.Look(ref preventShortLifespanPenalty, "preventShortLifespanPenalty", false);
+            Scribe_Values.Look(ref AgelessAtPeakBirthQuality, "AgelessAtPeakBirthQuality", false);
             base.ExposeData();
         }
     }
@@ -39,6 +41,14 @@ namespace BirthQualityLifespanFix
 
             listing.SubLabel(
                 "BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc".Translate(), 1f);
+
+            listing.CheckboxLabeled(
+                "BirthQualityLifespanFix_AgelessAtPeakBirthQuality".Translate(),
+                ref Settings.AgelessAtPeakBirthQuality
+            );
+
+            listing.SubLabel(
+                "BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc".Translate(), 1f);
 
             listing.End();
         }

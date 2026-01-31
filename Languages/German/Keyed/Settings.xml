@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Kurzlebigkeits-Strafe verhindern</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Wenn aktiviert, behalten Rassen mit kürzerer Lebensdauer als Menschen (80 Jahre) mindestens ein volles 10-Jahres-Äquivalent-Fenster für maximale Geburtsqualität, anstatt proportional verkleinert zu werden.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Alterslos bei Spitzengeburtsqualität</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Wenn aktiviert, erhalten Kolonisten mit dem Alterslos-Gen (oder ähnlichen Genen, die das Altern vollständig stoppen), die das optimale Qualitätsfenster überschritten haben, immer den vollen Geburtsqualitätsbonus.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

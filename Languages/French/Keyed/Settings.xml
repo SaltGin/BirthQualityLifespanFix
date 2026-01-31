@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Empêcher la pénalité de courte durée de vie</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Lorsqu'activé, les races ayant une durée de vie plus courte que les humains (80 ans) conserveront au moins une fenêtre complète de 10 ans équivalente pour la qualité de naissance maximale au lieu d'être réduite proportionnellement.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Sans-âge au pic de qualité de naissance</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Lorsqu'activé, les personnages avec le gène Sans-âge (ou des gènes similaires qui arrêtent complètement le vieillissement) qui ont dépassé la fenêtre de qualité optimale recevront toujours le bonus complet de qualité de naissance.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

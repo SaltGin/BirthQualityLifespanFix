@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zabrániť penalizácii krátkej dĺžky života</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Keď je povolené, rasy s kratšou dĺžkou života ako ľudia (80 rokov) si zachovajú aspoň plné 10-ročné ekvivalentné okno maximálnej kvality narodenia namiesto proporcionálneho zmenšenia.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Nestarnúci na vrchole pôrodnej kvality</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Keď je povolené, postavy s génom Nestarnúci (alebo podobnými génmi, ktoré úplne zastavujú starnutie), ktoré prekročili okno vrcholnej kvality, budú vždy dostávať plný bonus pôrodnej kvality.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

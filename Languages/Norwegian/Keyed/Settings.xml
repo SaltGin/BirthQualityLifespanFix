@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Forhindre kort-levetid straff</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Når aktivert, vil raser med kortere levetid enn mennesker (80 år) beholde minst et fullt 10-års ekvivalent vindu for maksimal fødselskvalitet i stedet for å bli proporsjonalt redusert.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Aldersløs ved topp fødselskvalitet</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Når aktivert, vil figurer med Aldersløs-genet (eller lignende gener som fullstendig stopper aldring) som har passert det optimale kvalitetsvinduet, alltid motta full fødselskvalitetsbonus.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

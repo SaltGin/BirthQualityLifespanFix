@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Previne penalizarea duratei scurte de viață</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Când este activat, rasele cu durata de viață mai scurtă decât oamenii (80 de ani) vor menține cel puțin o fereastră completă echivalentă cu 10 ani pentru calitatea maximă a nașterii în loc să fie redusă proporțional.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Fără vârstă la calitatea maximă a nașterii</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Când este activat, personajele cu gena Fără vârstă (sau gene similare care opresc complet îmbătrânirea) care au depășit fereastra de calitate optimă vor primi întotdeauna bonusul complet de calitate a nașterii.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

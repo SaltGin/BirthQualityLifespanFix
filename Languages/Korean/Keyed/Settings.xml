@@ -2,4 +2,6 @@
 <LanguageData>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>짧은 수명 페널티 방지</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>활성화하면 인간보다 수명이 짧은 종족(80년 미만)은 비례적으로 축소되는 대신 최소한 완전한 10년 상당의 최고 출산 품질 기간을 유지합니다.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>불로 유전자로 최고 출생 품질 유지</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>활성화하면 불로 유전자(또는 노화를 완전히 멈추는 유사한 유전자)를 가진 폰이 최적 품질 기간을 지났더라도 항상 최대 출생 품질 보너스를 받습니다.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>
