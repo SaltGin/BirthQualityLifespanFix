@@ -2,7 +2,6 @@
 using RimWorld;
 using System;
 using System.Linq;
-using UnityEngine;
 using Verse;
 
 namespace BirthQualityLifespanFix
@@ -66,6 +65,15 @@ namespace BirthQualityLifespanFix
             float bioPeakStart = HumanPeakStart * matureRatio;
             float bioPeakEnd = HumanPeakEnd * lifespanRatio;
 
+            if (BirthQualityLifespanFix.Settings.LifespanFactorAffectsPeak)
+            {
+                float lifespanFactor = pawn.GetStatValue(StatDefOf.LifespanFactor);
+                if (lifespanFactor <= 0f)
+                    lifespanFactor = 1f;
+
+                bioPeakEnd = bioPeakStart + (bioPeakEnd - bioPeakStart) * lifespanFactor;
+            }
+
             if (BirthQualityLifespanFix.Settings.preventShortLifespanPenalty && lifespanRatio < 1f)
             {
                 float guaranteedEnd = bioPeakStart + (HumanPeakEnd - HumanPeakStart); // effectively Start + 10
@@ -107,7 +115,10 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = ritual?.PawnWithRole("mother");
-            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
+            if (pawn == null || (pawn.def == ThingDefOf.Human
+                && pawn.genes?.BiologicalAgeTickFactor == 1f
+                && (!BirthQualityLifespanFix.Settings.LifespanFactorAffectsPeak
+                    || pawn.GetStatValue(StatDefOf.LifespanFactor) == 1f)))
                 return;
 
             __result = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);
@@ -127,7 +138,10 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = ritual.PawnWithRole("mother");
-            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
+            if (pawn == null || (pawn.def == ThingDefOf.Human
+                && pawn.genes?.BiologicalAgeTickFactor == 1f
+                && (!BirthQualityLifespanFix.Settings.LifespanFactorAffectsPeak
+                    || pawn.GetStatValue(StatDefOf.LifespanFactor) == 1f)))
                 return;
 
             float equivalentAge = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);
@@ -153,7 +167,10 @@ namespace BirthQualityLifespanFix
                 return;
 
             Pawn pawn = assignments?.FirstAssignedPawn("mother");
-            if (pawn == null || (pawn.def == ThingDefOf.Human && pawn.genes?.BiologicalAgeTickFactor == 1f))
+            if (pawn == null || (pawn.def == ThingDefOf.Human
+                && pawn.genes?.BiologicalAgeTickFactor == 1f
+                && (!BirthQualityLifespanFix.Settings.LifespanFactorAffectsPeak
+                    || pawn.GetStatValue(StatDefOf.LifespanFactor) == 1f)))
                 return;
 
             float equivalentAge = BirthQualityAgePatch.GetHumanEquivalentAge(pawn);

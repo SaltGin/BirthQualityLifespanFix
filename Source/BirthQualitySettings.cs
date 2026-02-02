@@ -11,11 +11,13 @@ namespace BirthQualityLifespanFix
         /// </summary>
         public bool preventShortLifespanPenalty = false;
         public bool AgelessAtPeakBirthQuality = false;
+        public bool LifespanFactorAffectsPeak = true;
 
         public override void ExposeData()
         {
             Scribe_Values.Look(ref preventShortLifespanPenalty, "preventShortLifespanPenalty", false);
             Scribe_Values.Look(ref AgelessAtPeakBirthQuality, "AgelessAtPeakBirthQuality", false);
+            Scribe_Values.Look(ref LifespanFactorAffectsPeak, "LifespanFactorAffectsPeak", true);
             base.ExposeData();
         }
     }
@@ -33,6 +35,14 @@ namespace BirthQualityLifespanFix
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
+
+            listing.CheckboxLabeled(
+                "BirthQualityLifespanFix_LifespanFactorAffectsPeak".Translate(),
+                ref Settings.LifespanFactorAffectsPeak
+            );
+
+            listing.SubLabel(
+                "BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc".Translate(), 1f);
 
             listing.CheckboxLabeled(
                 "BirthQualityLifespanFix_PreventShortLifespanPenalty".Translate(),
