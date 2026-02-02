@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>壽命係數影響最佳生育期</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>影響壽命係數的基因會按比例縮短或延長最佳生育期。例如，×80%壽命的基因（如细胞失衡）會將區間從20-30縮短為20-28，而×120%壽命的基因會將其延長至20-32。</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>防止短壽命懲罰</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>啟用後，壽命短於人類（80年）的種族將至少保持完整的10年最佳生育期，而不是按比例縮短。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>不老基因保持最佳生育品質</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>

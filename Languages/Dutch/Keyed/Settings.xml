@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Levensduur factor beïnvloedt piek geboortekwaliteit periode</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Genen die de levensduur factor beïnvloeden zullen het leeftijdsbereik voor piek geboortekwaliteit proportioneel verkleinen of vergroten. Bijv. Lichte Celinstabiliteit (×80% levensduur) verkleint het bereik van 20-30 naar 20-28, terwijl een ×120% levensduurgen het zou vergroten naar 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Voorkom korte-levensduur straf</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Wanneer ingeschakeld, behouden rassen met een kortere levensduur dan mensen (80 jaar) minstens een volledig 10-jarig equivalent venster voor maximale geboortekwaliteit in plaats van proportioneel verkleind te worden.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Wanneer ingeschakeld, behouden rassen met een kortere levensduur dan mensen (80 jaar) minstens een volledige 10-jarige equivalente periode voor piek kwaliteit, in plaats van proportioneel verkleind te worden.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Tijdloos op piek geboortekwaliteit</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Wanneer ingeschakeld, zullen pionnen met het Tijdloos-gen (of vergelijkbare genen die veroudering volledig stoppen) die voorbij het piek kwaliteitsvenster zijn, altijd de volledige geboortekwaliteitsbonus ontvangen.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Wanneer ingeschakeld, zullen pionnen met het Tijdloos-gen (of vergelijkbare genen die veroudering volledig stoppen) die voorbij de piek kwaliteitsperiode zijn, altijd de volledige geboortekwaliteitsbonus ontvangen.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

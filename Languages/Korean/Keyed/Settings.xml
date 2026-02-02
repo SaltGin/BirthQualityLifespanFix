@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>수명 계수가 최적 출생 품질 기간에 영향</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>수명 계수에 영향을 미치는 유전자는 최적의 출생 품질 연령대를 비례적으로 축소하거나 연장합니다. 예를 들어, 경미한 세포 불안정(×80% 수명)은 범위를 20-30에서 20-28로 축소하고, ×120% 수명 유전자는 20-32로 연장합니다.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>짧은 수명 페널티 방지</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>활성화하면 인간보다 수명이 짧은 종족(80년 미만)은 비례적으로 축소되는 대신 최소한 완전한 10년 상당의 최고 출산 품질 기간을 유지합니다.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>활성화하면 인간보다 수명이 짧은 종족(80년 미만)은 비례적으로 축소되는 대신 최소한 완전한 10년 상당의 최적 품질 기간을 유지합니다.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>불로 유전자로 최고 출생 품질 유지</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>활성화하면 불로 유전자(또는 노화를 완전히 멈추는 유사한 유전자)를 가진 폰이 최적 품질 기간을 지났더라도 항상 최대 출생 품질 보너스를 받습니다.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>활성화하면 불로 유전자(또는 노화를 완전히 멈추는 유사한 유전자)를 가진 폰이 최적 품질 기간을 지났을 때 항상 전체 출생 품질 보너스를 받습니다.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

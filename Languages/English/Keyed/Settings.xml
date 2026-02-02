@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<BirthQualityLifespanFix_LifespanFactorAffectsPeak>Lifespan Factor affects birth quality peak window</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
-	<BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Genes affecting Lifespan Factor will proportionally shrink or extend the peak birth quality age window. E.g., Minor Cell Instability (x80% lifespan) shrinks the window from 20-30 to 20-28, while a x120% lifespan gene would extend it to 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
+	<BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Genes affecting Lifespan Factor will proportionally shrink or extend the peak birth quality age window. E.g., Mild Cell Instability (x80% lifespan) shrinks the window from 20-30 to 20-28, while a x120% lifespan gene would extend it to 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
 	<BirthQualityLifespanFix_PreventShortLifespanPenalty>Prevent short-lifespan penalty</BirthQualityLifespanFix_PreventShortLifespanPenalty>
     <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>When enabled, races with lifespans shorter than humans (80 years) will maintain at least a full 10-year equivalent peak quality window instead of having it shrunk proportionally.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Ageless at peak birth quality</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>

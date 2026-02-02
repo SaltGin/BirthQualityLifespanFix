@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Faktor délky života ovlivňuje období vrcholné porodní kvality</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Geny ovlivňující faktor délky života proporcionálně zmenší nebo rozšíří věkové rozmezí vrcholné porodní kvality. Např. Menší buněčná nestabilita (×80% délky života) zmenší rozmezí z 20-30 na 20-28, zatímco gen ×120% délky života by ho rozšířil na 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zabránit penalizaci krátké délky života</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Když je povoleno, rasy s kratší délkou života než lidé (80 let) si zachovají alespoň plné 10leté ekvivalentní okno maximální kvality porodu místo proporcionálního zmenšení.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Když je povoleno, rasy s kratší délkou života než lidé (80 let) si zachovají alespoň plné 10leté ekvivalentní období maximální kvality, místo proporcionálního zmenšení.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Nestárnoucí na vrcholu porodní kvality</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Když je povoleno, postavy s genem Nestárnoucí (nebo podobnými geny, které zcela zastavují stárnutí), které překročily okno vrcholné kvality, budou vždy dostávat plný bonus porodní kvality.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Když je povoleno, postavy s genem Nestárnoucí (nebo podobnými geny, které zcela zastavují stárnutí), které překročily období vrcholné kvality, vždy obdrží plný bonus porodní kvality.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

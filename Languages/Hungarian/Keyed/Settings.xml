@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Élettartam tényező befolyásolja a csúcs születési minőség időszakát</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Az élettartam tényezőt befolyásoló gének arányosan szűkítik vagy bővítik a csúcs születési minőség korhatárát. Pl. az Enyhe Sejtinstabilitás (×80% élettartam) szűkíti a tartományt 20-30-ról 20-28-ra, míg egy ×120% élettartam gén 20-32-re bővítené.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Rövid élettartam büntetés megakadályozása</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Ha engedélyezve van, az embereknél rövidebb élettartamú (80 év) fajok legalább a teljes 10 éves egyenértékű csúcs születési minőség ablakot megtartják, ahelyett hogy arányosan csökkenne.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Ha engedélyezve van, az embereknél rövidebb élettartamú (80 év) fajok legalább a teljes 10 éves egyenértékű csúcs születési minőség időszakot megtartják, ahelyett hogy arányosan szűkülne.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Öregedésmentes csúcs születési minőségen</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Ha engedélyezve van, az Öregedésmentes génnel (vagy hasonló génekkel, amelyek teljesen megállítják az öregedést) rendelkező, a csúcsminőségi ablakot túllépett karakterek mindig teljes születési minőség bónuszt kapnak.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Ha engedélyezve van, az Öregedésmentes génnel (vagy hasonló génekkel, amelyek teljesen megállítják az öregedést) rendelkező, a csúcs minőség időszakát túllépett karakterek mindig megkapják a teljes születési minőség bónuszt.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

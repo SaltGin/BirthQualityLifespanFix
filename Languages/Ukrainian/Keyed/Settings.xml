@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Фактор тривалості життя впливає на вікно пікової якості народження</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Гени, що впливають на фактор тривалості життя, пропорційно звужують або розширюють вікове вікно пікової якості народження. Наприклад, Незначна Клітинна Нестабільність (×80% тривалості життя) пропорційно звужує оптимальне вікно з 20-28 років до 16-22,4 років.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Запобігти штрафу за коротку тривалість життя</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>При увімкненні раси з тривалістю життя коротшою за людську (80 років) збережуть щонайменше повне 10-річне еквівалентне вікно пікової якості народження замість пропорційного зменшення.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Нестаріючий на піку якості народження</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>При увімкненні персонажі з геном Нестаріючий (або подібними генами, що повністю зупиняють старіння), які перевищили вікно пікової якості, завжди отримуватимуть повний бонус якості народження.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
-</LanguageData>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>При увімкненні раси з тривалістю життя коротшою за людську (80 років) збережуть принаймні повне 10-річне еквівалентне вікно оптимальної якості, замість пропорційного скорочення.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_AgelessAt

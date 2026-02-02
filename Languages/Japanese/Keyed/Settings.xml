@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>寿命係数が最適出生品質期間に影響</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>寿命係数に影響する遺伝子は、最適な出生品質の年齢範囲を比例して縮小または延長します。例えば、軽度の細胞不安定（×80%寿命）は範囲を20-30から20-28に縮小し、×120%寿命の遺伝子は20-32に延長します。</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>短寿命ペナルティを防止</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>有効にすると、人間より寿命が短い種族（80年未満）は、比例して縮小されるのではなく、少なくとも完全な10年相当の最高出産品質期間を維持します。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>有効にすると、人間より寿命が短い種族（80年未満）は、比例して縮小されるのではなく、少なくとも完全な10年相当の最適品質期間を維持します。</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>不老遺伝子で最高出生品質を維持</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>有効にすると、不老遺伝子（または老化を完全に停止させる同様の遺伝子）を持ち、最適な品質期間を過ぎたポーンは常に出生品質ボーナスを最大で受け取ります。</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>有効にすると、不老遺伝子（または老化を完全に停止させる同様の遺伝子）を持ち、最適な品質期間を過ぎたポーンは、常に完全な出生品質ボーナスを受け取ります。</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

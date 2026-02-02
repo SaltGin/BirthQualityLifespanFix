@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Ömür faktörü en yüksek doğum kalitesi dönemini etkiler</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Ömür faktörünü etkileyen genler, en yüksek doğum kalitesi yaş aralığını orantılı olarak daraltır veya genişletir. Örn., Küçük Hücre Dengesizliği (×80% ömür) aralığı 20-30'dan 20-28'e daraltır, ×120% ömür geni ise 20-32'ye genişletir.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Kısa ömür cezasını önle</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Etkinleştirildiğinde, insanlardan daha kısa ömürlü ırklar (80 yıl) orantılı olarak küçültülmek yerine en az tam 10 yıllık eşdeğer maksimum doğum kalitesi penceresini koruyacaktır.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Etkinleştirildiğinde, insanlardan daha kısa ömürlü ırklar (80 yıl) orantılı olarak küçültülmek yerine en az tam 10 yıllık eşdeğer bir en yüksek kalite dönemi koruyacaktır.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Yaşlanmaz en yüksek doğum kalitesinde</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Etkinleştirildiğinde, Yaşlanmaz genine (veya yaşlanmayı tamamen durduran benzer genlere) sahip ve en yüksek kalite penceresini geçmiş karakterler her zaman tam doğum kalitesi bonusu alacaktır.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
-</LanguageData>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Etkinleştirildiğinde, Yaşlanmaz genine (veya yaşlanmayı tamamen durduran benzer genlere) sahip ve en

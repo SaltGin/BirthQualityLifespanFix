@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Levetidsfaktor påvirker periode for maksimal fødselskvalitet</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Gener der påvirker levetidsfaktoren vil proportionelt formindske eller udvide aldersperioden for maksimal fødselskvalitet. F.eks. vil Mindre Celleinstabilitet (×80% levetid) formindske perioden fra 20-30 til 20-28, mens et ×120% levetidsgen ville udvide den til 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Forhindre kort-levetid straf</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Når aktiveret, vil racer med kortere levetid end mennesker (80 år) bevare mindst et fuldt 10-årigt ækvivalent vindue for maksimal fødselskvalitet i stedet for at blive proportionelt reduceret.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Når aktiveret, vil racer med kortere levetid end mennesker (80 år) bevare mindst en fuld 10-årig ækvivalent periode for maksimal fødselskvalitet, i stedet for at blive proportionelt formindsket.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Aldersløs ved højeste fødselskvalitet</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Når aktiveret, vil figurer med Aldersløs-genet (eller lignende gener, der fuldstændigt stopper aldring), som har passeret det optimale kvalitetsvindue, altid modtage fuld fødselskvalitetsbonus.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Når aktiveret, vil figurer med Aldersløs-genet (eller lignende gener, der fuldstændigt stopper aldring), som har passeret den optimale kvalitetsperiode, altid modtage den fulde fødselskvalitetsbonus.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

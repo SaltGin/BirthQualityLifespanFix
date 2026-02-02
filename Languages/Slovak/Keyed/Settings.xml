@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Faktor dĺžky života ovplyvňuje obdobie vrcholnej pôrodnej kvality</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Gény ovplyvňujúce faktor dĺžky života proporcionálne zmenšia alebo rozšíria vekové rozmedzie vrcholnej pôrodnej kvality. Napr. Menšia bunková nestabilita (×80% dĺžky života) zmenší rozmedzie z 20-30 na 20-28, zatiaľ čo gén ×120% dĺžky života by ho rozšíril na 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Zabrániť penalizácii krátkej dĺžky života</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Keď je povolené, rasy s kratšou dĺžkou života ako ľudia (80 rokov) si zachovajú aspoň plné 10-ročné ekvivalentné okno maximálnej kvality narodenia namiesto proporcionálneho zmenšenia.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Keď je povolené, rasy s kratšou dĺžkou života ako ľudia (80 rokov) si zachovajú aspoň plné 10-ročné ekvivalentné obdobie maximálnej kvality, namiesto proporcionálneho zmenšenia.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Nestarnúci na vrchole pôrodnej kvality</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Keď je povolené, postavy s génom Nestarnúci (alebo podobnými génmi, ktoré úplne zastavujú starnutie), ktoré prekročili okno vrcholnej kvality, budú vždy dostávať plný bonus pôrodnej kvality.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Keď je povolené, postavy s génom Nestarnúci (alebo podobnými génmi, ktoré úplne zastavujú starnutie), ktoré prekročili obdobie vrcholnej kvality, vždy dostanú plný bonus pôrodnej kvality.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

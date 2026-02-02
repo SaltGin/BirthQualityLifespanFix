@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Le facteur de durée de vie affecte la fenêtre optimale de qualité de naissance</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Les gènes affectant le facteur de durée de vie réduiront ou étendront proportionnellement la fenêtre d'âge optimale pour la qualité de naissance. Par ex., l'Instabilité Cellulaire Mineure (×80% durée de vie) réduit la fenêtre de 20-30 à 20-28, tandis qu'un gène ×120% durée de vie l'étendrait à 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Empêcher la pénalité de courte durée de vie</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Lorsqu'activé, les races ayant une durée de vie plus courte que les humains (80 ans) conserveront au moins une fenêtre complète de 10 ans équivalente pour la qualité de naissance maximale au lieu d'être réduite proportionnellement.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Lorsqu'activé, les races ayant une durée de vie plus courte que les humains (80 ans) conserveront au moins une fenêtre complète de 10 ans équivalent pour la qualité optimale, au lieu d'être proportionnellement réduite.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Sans-âge au pic de qualité de naissance</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Lorsqu'activé, les personnages avec le gène Sans-âge (ou des gènes similaires qui arrêtent complètement le vieillissement) qui ont dépassé la fenêtre de qualité optimale recevront toujours le bonus complet de qualité de naissance.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

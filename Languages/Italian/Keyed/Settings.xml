@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Il fattore di durata della vita influisce sul periodo di picco della qualità di nascita</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>I geni che influenzano il fattore di durata della vita ridurranno o estenderanno proporzionalmente l'intervallo di età del picco di qualità di nascita. Es., Instabilità Cellulare Minore (×80% durata vita) riduce l'intervallo da 20-30 a 20-28, mentre un gene ×120% durata vita lo estenderebbe a 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Previeni penalità per vita breve</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Quando abilitato, le razze con aspettativa di vita inferiore agli umani (80 anni) manterranno almeno una finestra completa equivalente a 10 anni per la qualità massima della nascita invece di essere ridotta proporzionalmente.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Quando abilitato, le razze con aspettativa di vita inferiore agli umani (80 anni) manterranno almeno un periodo completo equivalente a 10 anni di qualità ottimale, invece di essere ridotto proporzionalmente.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Senza età al picco di qualità di nascita</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Quando abilitato, i personaggi con il gene Senza età (o geni simili che fermano completamente l'invecchiamento) che hanno superato la finestra di qualità ottimale riceveranno sempre il bonus completo di qualità di nascita.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Quando abilitato, i personaggi con il gene Senza età (o geni simili che fermano completamente l'invecchiamento) che hanno superato il periodo di qualità ottimale riceveranno sempre il bonus completo di qualità di nascita.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>

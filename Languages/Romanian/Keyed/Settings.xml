@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeak>Factorul duratei de viață afectează perioada de vârf a calității nașterii</BirthQualityLifespanFix_LifespanFactorAffectsPeak>
+    <BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>Genele care afectează factorul duratei de viață vor micșora sau extinde proporțional intervalul de vârstă al calității de vârf a nașterii. Ex., Instabilitate Celulară Minoră (×80% durată de viață) micșorează intervalul de la 20-30 la 20-28, în timp ce o genă ×120% durată de viață l-ar extinde la 20-32.</BirthQualityLifespanFix_LifespanFactorAffectsPeakDesc>
     <BirthQualityLifespanFix_PreventShortLifespanPenalty>Previne penalizarea duratei scurte de viață</BirthQualityLifespanFix_PreventShortLifespanPenalty>
-    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Când este activat, rasele cu durata de viață mai scurtă decât oamenii (80 de ani) vor menține cel puțin o fereastră completă echivalentă cu 10 ani pentru calitatea maximă a nașterii în loc să fie redusă proporțional.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
+    <BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>Când este activat, rasele cu durata de viață mai scurtă decât oamenii (80 de ani) vor menține cel puțin o perioadă completă echivalentă cu 10 ani de calitate de vârf, în loc să fie micșorată proporțional.</BirthQualityLifespanFix_PreventShortLifespanPenaltyDesc>
     <BirthQualityLifespanFix_AgelessAtPeakBirthQuality>Fără vârstă la calitatea maximă a nașterii</BirthQualityLifespanFix_AgelessAtPeakBirthQuality>
-    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Când este activat, personajele cu gena Fără vârstă (sau gene similare care opresc complet îmbătrânirea) care au depășit fereastra de calitate optimă vor primi întotdeauna bonusul complet de calitate a nașterii.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
+    <BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>Când este activat, personajele cu gena Fără vârstă (sau gene similare care opresc complet îmbătrânirea) care au depășit perioada de calitate de vârf vor primi întotdeauna bonusul complet de calitate a nașterii.</BirthQualityLifespanFix_AgelessAtPeakBirthQualityDesc>
 </LanguageData>
