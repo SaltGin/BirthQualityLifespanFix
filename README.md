@@ -6,8 +6,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3654799710
 
 # Mod Settings
 
-These options affect the **mother-age component of the birth ritual's outcome quality**. They do not affect conception, pregnancy, or any other part of reproduction.
-
 ### Lifespan factor affects peak (default: enabled)
 
 When enabled, the mod reads the pawn's `LifespanFactor` stat and uses it to scale the length of the peak birth-quality window. It scales the interval between the calculated peak start and peak end; it does not change the peak start itself.
