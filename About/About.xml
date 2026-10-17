@@ -17,6 +17,7 @@ Example: A 266-year-old pawn with a 1000-year lifespan will be treated as ~21 hu
         <li>
             <packageId>brrainz.harmony</packageId>
             <displayName>Harmony</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
         </li>
     </modDependencies>
     <loadAfter>
