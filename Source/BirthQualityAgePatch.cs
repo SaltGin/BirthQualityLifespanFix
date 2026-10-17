@@ -137,7 +137,7 @@ namespace BirthQualityLifespanFix
             if (__instance.roleId != "mother")
                 return;
 
-            Pawn pawn = ritual.PawnWithRole("mother");
+            Pawn pawn = ritual?.PawnWithRole("mother");
             if (pawn == null || (pawn.def == ThingDefOf.Human
                 && pawn.genes?.BiologicalAgeTickFactor == 1f
                 && (!BirthQualityLifespanFix.Settings.LifespanFactorAffectsPeak

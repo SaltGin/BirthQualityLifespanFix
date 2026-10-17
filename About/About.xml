@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Birth Quality Lifespan Fix</name>
+    <author>SaltGin</author>
+    <supportedVersions>
+        <li>1.5</li>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <packageId>saltgin.birthqualitylifespanfix</packageId>
+    <description>Scales the mother's age bonus for birth quality based on race lifespan. 
+
+Long-lived races (like Milira, Dragonian, Miho, Moelotl, etc.) will now have their "prime birthing age" scaled proportionally to human equivalents. 
+
+Example: A 266-year-old pawn with a 1000-year lifespan will be treated as ~21 human years old for birth quality calculations, receiving the full +50% quality bonus.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld.biotech</li>
+    </loadAfter>
+</ModMetaData>
